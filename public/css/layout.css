@@ -22,18 +22,17 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: #e3f2fd; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
+
+
 header {
-   position: relative;
-   height: 800px;
-   min-height: 500px;
    width: 100%;
-   
+   max-height: 5px;
    text-align: center;
    overflow: hidden;
 }
@@ -135,7 +134,7 @@ header .scrolldown a:hover { color: #0762f9; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: #e3f2fd; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -164,7 +163,7 @@ ul#nav li a {
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: #fff;
+   color: #1565c0;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -174,7 +173,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #fe6928; }
+ul#nav li.current a { color: #e65100; }
 
 
 /* ------------------------------------------------------------------ */
@@ -182,8 +181,8 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #000524;
-   padding-top: 96px;
+   background: #01579b;
+   padding-top: 40px;
    padding-bottom: 66px;
    overflow: hidden;
 }
@@ -200,10 +199,19 @@ ul#nav li.current a { color: #fe6928; }
    line-height: 30px;
    color: #ccc;
 }
-#about .profile-pic {
-   position: relative;
-   width: 120px;
-   height: 120px;
+#avatar {
+   padding: 25px;
+}
+#avatar .profile-pic {
+   text-align: center;
+   display: block;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   margin-top: 80px;
+   margin-bottom: 70px;
+   width: 250px;
+   height: 250px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
