@@ -6,8 +6,6 @@ import Avatar from "./Components/Avatar";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
-import Contact from "./Components/Contact";
-import Portfolio from "./Components/Portfolio";
 import NavBar from "./Components/NavBar";
 
 class App extends Component {
@@ -48,8 +46,6 @@ class App extends Component {
         <Avatar data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
-        {/* <Portfolio data={this.state.resumeData.portfolio} /> */}
-        {/* <Contact data={this.state.resumeData.main} /> */}
         <Footer data={this.state.resumeData.main} />
       </div>
     );
