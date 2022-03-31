@@ -9,7 +9,7 @@ class Footer extends Component {
       return (
         <li key={network.name}>
           <a href={network.url}>
-            <i className={network.className}></i>
+            <i className={network.className} style={{color: 'steelblue'}}></i>
           </a>
         </li>
       );

@@ -18,29 +18,25 @@ class About extends Component {
     return (
       <section id="about">
         <Fade duration={1000}>
-          <div className="row">
-            <div className="nine columns main-col">
+          <div style={{ marginRight: "150px", marginLeft: "150px" }}>
+            <div>
               <h2>About Me</h2>
 
               <p>{bio}</p>
-              <div className="row">
-                <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="address">
-                    <span>{name}</span>
-                    <br />
-                    <span>
-                      {street}
-                      <br />
-                      {city} {state}, {zip}
-                    </span>
-                    <br />
-                    <span>{phone}</span>
-                    <br />
-                    <span>{email}</span>
-                  </p>
-                </div>
-                <div className="columns download">
+
+              <div>
+                <h2>Contact Details</h2>
+                <p>
+                  <span>
+                    {city}, {state}
+                  </span>
+                  <br />
+                  <span>{phone}</span>
+                  <br />
+                  <span>{email}</span>
+                </p>
+
+                <div className="download">
                   <p>
                     <a href={resumeDownload} className="button">
                       <i className="fa fa-download"></i>Download Resume

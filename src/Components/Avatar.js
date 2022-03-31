@@ -18,6 +18,11 @@ class Avatar extends Component {
                 alt="Nordic Giant Profile Pic"
               />
         </div>
+        <div className="text-presentation">
+          <h2>Hi,</h2>
+          <h4>I'm <a style={{color: '#e65100'}}>Paloma Wolfango</a> !</h4>
+        </div>
+        
         </Fade>
       </section>
     );
